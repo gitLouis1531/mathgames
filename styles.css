@@ -1,0 +1,43 @@
+body{
+  padding: 25px;
+}
+#problem {
+	text-align: center;
+}
+.start-game{
+  text-align: center;
+}
+#play{
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+.answer{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  column-gap: 10px;
+  padding: 10px;
+}
+#answer{
+  display: none;
+}
+#choose1{
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+#choose2{
+  width: 120px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+#score{
+  text-align: center;
+}

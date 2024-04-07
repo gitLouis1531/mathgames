@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Math games</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div id="score">
+        <span id="score-true">0</span>
+        <span>/</span>
+        <span id="problem-amount">0</span>
+      </div>
+      <h1 id="problem">....?....</h1>
+      <div class="start-game" id="start-game">
+        <button id="play" onclick="gamePlay()">Play</button>
+      </div>
+      <div class="answer" id="answer">
+        <div class="choose">
+          <button id="choose1" onclick="choose(1)">Anser1</button>
+        </div>
+        <div class="choose">
+          <button id="choose2" onclick="choose(2)">Answer2</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
